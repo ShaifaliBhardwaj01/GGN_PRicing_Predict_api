@@ -1,0 +1,29 @@
+housing-project/
+│
+├── app/                    # 🔥 MAIN APPLICATION PACKAGE
+│   ├── __init__.py
+│   │
+│   ├── api/                # API layer
+│   │   └── routes.py
+│   │
+│   ├── services/           # Business logic
+│   │   ├── train_service.py
+│   │   └── predict_service.py
+│   │
+│   ├── core/               # Config & settings
+│   │   └── config.py
+│   │
+│   └── models/             # ML artifacts handling
+│       └── model_loader.py
+│
+├── main.py                 # ENTRY POINT
+│
+├── artifacts/
+│   ├── model.pkl
+│   └── pipeline.pkl
+│
+├── data/
+│   └── housing.csv
+│
+├── requirements.txt
+├── Dockerfile
